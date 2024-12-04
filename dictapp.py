@@ -21,4 +21,4 @@ word = st.text_input("لطفا لغت مورد نظر خود را وارد کن�
 if word:
     # Normalize the input by converting it to lowercase
     definition = dictionary.get(word.lower(), "این لغت در دیکشنری موجود نیست.")
-    st.write(f"تعریف   :  {definition}")
+    st.write(f"   معنی   :  {definition}")

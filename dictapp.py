@@ -136,6 +136,16 @@ dictionary = {
 
 }
 
+# Biography entry for Khudaidad Zahidi
+biography = """
+**Khudaidad Zahidi** is a prominent figure known for his contributions to computer sceince and music . With a deep commitment to making life easier, he has dedicated his life to improving the lives of others in his community.
+
+Born and raised in Afghanistan, Khudaidad has witnessed firsthand the challenges faced by his country. His experiences have shaped his vision for a better future, motivating him to engage actively in cultural an educaltional programs. He is recognized for his leadership skills and ability to inspire others.
+
+Throughout his career, Khudaidad has held various positions that reflect his dedication to his goals. His work has been instrumental in equality and loyalty.
+
+In addition to his professional accomplishments, Khudaidad is passionate about music, football, engaging, teaming, and cultural events which enriches his life and allows him to connect with others on a personal level. He believes in the power of education and community engagement as tools for transformation.
+"""
 # Title of the app
 st.title("Khudai_Dad__'s Online Dictionary")
 
@@ -145,5 +155,8 @@ word = st.text_input("لطفا لغت مورد نظر خود را وارد کن�
 # Check if the word is in the dictionary
 if word:
     # Normalize the input by converting it to lowercase
-    definition = dictionary.get(word.lower(), "این لغت در دیکشنری موجود نیست.")
-    st.write(f"   معنی   :  {definition}")
+    if word.lower() == 'khudaidad':
+        st.write(biography)
+    else:
+        definition = dictionary.get(word.lower(), "(این لغت در دیکشنری موجود نیست.)")
+        st.write(f"(معنی): {definition}")

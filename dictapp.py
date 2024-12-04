@@ -105,7 +105,7 @@ dictionary = {
     "turkey": "(بوقلمون) بوقلمون.",
     # Wild animals
     "lion": "(شیر) شیر."
-	"tiger":"(ببر) ببر",
+	"tiger":"(تایگر) ببر",
 	"elephant":"(فیل) فیل",
 	"bear":"(خرس) خرس",
 	"wolf":"(گرگ) گرگ",

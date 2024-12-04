@@ -138,7 +138,7 @@ dictionary = {
 
 # Biography entry for Khudaidad Zahidi
 biography = """
-**Khudaidad Zahidi** is a prominent figure known for his contributions to computer sceince and music . With a deep commitment to making life easier, he has dedicated his life to improving the lives of others in his community.
+**Khudaidad Zahidi** is a prominent figure known for his contributions to knowledge and music . With a deep commitment of making lifes happier, he has dedicated his life to improving the lives of others in his community.
 
 Born and raised in Afghanistan, Khudaidad has witnessed firsthand the challenges faced by his country. His experiences have shaped his vision for a better future, motivating him to engage actively in cultural an educaltional programs. He is recognized for his leadership skills and ability to inspire others.
 

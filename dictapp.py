@@ -136,6 +136,40 @@ dictionary = {
 
 }
 
+
+# Biography entry for Ali
+ali_biography = """
+**Ali** is a remarkable individual who embodies the essence of brotherhood. Known for his kindness and unwavering support, he has always been there for his family, making him the best brother anyone could ask for. Whether it's sharing laughter during family gatherings or providing a listening ear during tough times, Ali's presence is a source of comfort and joy.
+
+Born into a loving family, Ali has always had a passion for learning and adventure. He enjoys exploring new places and trying out different cuisines, often bringing back stories and experiences that enrich family conversations. His enthusiasm for life is infectious, inspiring those around him to embrace challenges and seek happiness in everyday moments.
+
+In addition to being a supportive brother, Ali is also dedicated to his personal growth and aspirations. He continually seeks to improve himself, whether through education, hobbies, or personal projects. His determination and positive attitude make him not just a brother but also a role model.
+
+Outside of his family life, Ali enjoys engaging in various activities that reflect his diverse interests. From sports to arts, he believes in living life to the fullest and encourages others to do the same. His ability to connect with people from all walks of life showcases his open-mindedness and genuine nature.
+
+In summary, Ali is more than just a brother; he is a cherished friend and an inspiring figure in the lives of those who know him. His legacy of love, support, and positivity will undoubtedly leave a lasting impact on everyone fortunate enough to be part of his life.
+"""
+
+# Title of the app
+st.title("Ali's Online Dictionary")
+
+# Input field for user to enter a word
+word = st.text_input("لطفا لغت مورد نظر خود را وارد کنید:")
+
+# Check if the word is in the dictionary
+if word:
+    # Normalize the input by converting it to lowercase
+    normalized_word = word.lower()
+    
+    if normalized_word == 'aliland':  # Check for 'aliland'
+        st.write(ali_biography)  # Display Ali's biography
+    else:
+        definition = dictionary.get(normalized_word, "(این لغت در دیکشنری موجود نیست.)")
+        st.write(f"(معنی): {definition}")
+
+
+
+
 # Biography entry for Khudaidad Zahidi
 biography = """
 **Khudaidad Zahidi** is a prominent figure known for his contributions to knowledge and music . With a deep commitment of making lifes happier, he has dedicated his life to improving the lives of others in his community.

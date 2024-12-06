@@ -21,7 +21,7 @@ dictionary = {
     "aliakber": "He is Alidad's brother.",
     "papaya": "پاپایا.",
     "cherry": "گیلاس.",
-    "plum": "آلو.",
+    "ali akber": "He is Alidad's brother.",
     "avocado": "آووکادو.",
     "coconut": "نارگیل.",
     "apricot": "زردآلو.",

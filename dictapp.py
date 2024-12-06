@@ -18,7 +18,7 @@ dictionary = {
     "pineapple": "آناناس.",
     "alidad": "He is khudaidad's my brother.",
     "lemon": "لیمو.",
-    "Aliakber": "He is Alidad's brother.",
+    "aliakber": "He is Alidad's brother.",
     "papaya": "پاپایا.",
     "cherry": "گیلاس.",
     "plum": "آلو.",

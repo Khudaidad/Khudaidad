@@ -2,7 +2,6 @@ import streamlit as st
 
 # Sample dictionary data
 dictionary = {
-    "appel": "You are the apple of my eye! (^_^).",
  #  fruits = {
     "apple": "سیب.",
     "banana": "موز یا کیله.",

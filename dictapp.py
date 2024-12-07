@@ -12,7 +12,7 @@ dictionary = {
     "pear": "گلابی.",
     "strawberry": "توت فرنگی.",
     "blueberry": "زغال اخته.",
-    "raspberry": "تمشک.",
+    "raspberry": "استه یکان چیز دگه چی مونی معنای ازیره.",
     "mango": "مینگ.",
     "pineapple": "آناناس.",
     "alidad": "He is khudaidad's my brother.",
